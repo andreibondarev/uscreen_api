@@ -1,0 +1,12 @@
+[
+  {
+    "id": 123,
+    "perform_action_at": 1738939360,
+    "canceled_at": null,
+    "created_at": 1736260961,
+    "product_id": 999,
+    "product_type": "recurring",
+    "with_manual_billing": false,
+    "origin": "assigned_from_publisher_api"
+  }
+]
