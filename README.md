@@ -1,23 +1,16 @@
 # UscreenAPI
 
-TODO: Delete this and the text below, and describe your gem
+Client library for the [Uscreen.tv](https://www.uscreen.tv/) APIs.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/uscreen/api`. To experiment with that code, run `bin/console` for an interactive prompt.
+![Tests status](https://github.com/andreibondarev/uscreen_api/actions/workflows/ci.yml/badge.svg)
+[![Gem Version](https://badge.fury.io/rb/uscreen_api.svg)](https://badge.fury.io/rb/uscreen_api)
+[![Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/gems/uscreen_api)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/andreibondarev/uscreen_api/blob/main/LICENSE.txt)
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
-Install the gem and add to the application's Gemfile by executing:
-
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+gem install uscreen_api
 ```
 
 ## Usage
