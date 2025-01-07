@@ -1,0 +1,19 @@
+{
+  "id": 123,
+  "name": "John Smith",
+  "email": "john.smith@gmail.com",
+  "subscriber": false,
+  "referrer": null,
+  "created_at": 1735857720,
+  "custom_fields": {},
+  "utm_params": {
+    "utm_source": null,
+    "utm_medium": null,
+    "utm_term": null,
+    "utm_content": null,
+    "utm_campaign": null
+  },
+  "opted_in_for_news_and_updates": true,
+  "avatar_url": "https://www.gravatar.com/avatar/3604969870a75dbcd563100cf50f5f3d?d=https%3A%2F%2Fui-avatars.com%2Fapi%2FJS%2F200%2FDFF2EF%2F2aa994%2F2%2F0.33",
+  "origin": "publisher_api"
+}
