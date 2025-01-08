@@ -40,17 +40,17 @@ module UscreenAPI
     def create(
       email:,
       name:,
-      password:,
+      password: nil,
       payment_user_id: nil,
       skip_invite: nil,
       opted_in_for_news_and_updates: nil,
       custom_fields: {}
     )
       response = client.connection.post(PATH) do |req|
-        req.body = {}
-
-        req.body["email"] = email if email
-        req.body["name"] = name if name
+        req.body = {
+          email: email,
+          name: name
+        }
         req.body["password"] = password if password
         req.body["payment_user_id"] = payment_user_id if payment_user_id
         req.body["skip_invite"] = skip_invite if skip_invite
