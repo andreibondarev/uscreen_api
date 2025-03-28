@@ -137,16 +137,16 @@ module UscreenAPI
     def grant_access(
       id:,
       product_id:,
-      product_type:,
+      product_type: nil,
       perform_action_at: nil,
       with_manual_billing: false
     )
       response = client.connection.post("#{PATH}/#{id}/accesses") do |req|
         req.body = {
           product_id: product_id,
-          product_type: product_type,
           with_manual_billing: with_manual_billing
         }
+        req.body["product_type"] = product_type if product_type
         req.body["perform_action_at"] = perform_action_at if perform_action_at
       end
 
