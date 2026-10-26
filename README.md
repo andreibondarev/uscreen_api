@@ -15,7 +15,35 @@ gem install uscreen_api
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "uscreen_api"
+
+client = UscreenAPI::Client.new(api_key: ENV["USCREEN_API_KEY"])
+
+client.customers.list(page: 1)
+client.customers.create(email: "joe@example.com", name: "Joe Shmoe", skip_invite: true)
+client.customers.get(id: "joe@example.com")
+client.customers.grant_access(id: 123, product_id: 456, product_type: "recurring")
+client.customers.create_subscription(id: 123, product_id: 789)
+client.contents.list(content_type: "video", include: "author")
+client.analytics.video_views(user_id: 123)
+```
+
+Supported resources, matching the [Publisher API](https://www.uscreen.io/api/publisher.html):
+
+| Resource | Methods |
+| --- | --- |
+| `customers` | `list`, `create`, `get`, `update`, `tokenized_url`, `accesses`, `access`, `grant_access`, `revoke_access`, `subscription`, `create_subscription`, `cancel_subscription` |
+| `groups` | `list`, `create`, `delete`, `members`, `add_member`, `remove_member` |
+| `contents` | `list`, `get`, `playlist_items`, `playlist_item`, `publish`, `unpublish`, `schedule` |
+| `programs` (legacy alias of contents) | `list`, `get`, `chapters`, `chapter` |
+| `videos` | `list`, `get` |
+| `offers` | `list`, `get` |
+| `invoices` | `list`, `get` |
+| `email_topics` | `list` |
+| `analytics` | `video_views`, `total_watch_time`, `video_views_summary` |
+
+Errors raise subclasses of `UscreenAPI::Errors::Error`: `Unauthorized` (401), `NotFound` (404), `UnprocessableEntity` (422). Customer endpoints raise `UserNotFound` / `UserNotCreated`, which subclass `NotFound` / `UnprocessableEntity`.
 
 ## Development
 

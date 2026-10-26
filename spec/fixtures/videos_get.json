@@ -1,0 +1,21 @@
+{
+  "chapter_ids": [
+    "string"
+  ],
+  "created_at": 1720186565,
+  "duration": 1800,
+  "filename": "string",
+  "id": 332,
+  "preview_image_url": "string",
+  "published_at": null,
+  "size": 1,
+  "source": "upload",
+  "author": {
+    "id": 10,
+    "title": "string",
+    "description": "string",
+    "image": "string",
+    "permalink": "string"
+  },
+  "legacy_id": "my-external-id"
+}

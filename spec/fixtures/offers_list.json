@@ -1,0 +1,17 @@
+[
+  {
+    "created_at": 1720186565,
+    "description": "string",
+    "id": 231,
+    "main_image_url": "string",
+    "price_cents": 1500,
+    "price_mode": "fixed",
+    "private": false,
+    "rental_period": "2 days",
+    "rental_price_cents": 300,
+    "rental_price_mode": "fixed",
+    "title": "string",
+    "type": "recurring",
+    "url": "string"
+  }
+]

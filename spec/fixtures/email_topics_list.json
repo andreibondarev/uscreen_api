@@ -1,0 +1,9 @@
+[
+  {
+    "id": 12,
+    "title": "Weekly newsletter",
+    "description": "string",
+    "kind": "custom",
+    "system": false
+  }
+]

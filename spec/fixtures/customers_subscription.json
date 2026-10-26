@@ -1,0 +1,20 @@
+{
+  "id": 789,
+  "perform_action_at": 1720187272,
+  "canceled_at": 1720186999,
+  "created_at": 1720186565,
+  "product_id": 456,
+  "product_type": "recurring",
+  "with_manual_billing": false,
+  "origin": "assigned_from_publisher_api",
+  "platform": "web",
+  "duration": 30,
+  "price": 1500,
+  "currency": "USD",
+  "trial": false,
+  "trial_period": 7,
+  "pauses_at": 1720186999,
+  "resumes_at": 1722778999,
+  "cover_fees": false,
+  "covered_fees": 150
+}

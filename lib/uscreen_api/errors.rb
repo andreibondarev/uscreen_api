@@ -1,9 +1,16 @@
 # frozen_string_literal: true
 
 module UscreenAPI::Errors
-  class UserNotFound < StandardError; end
+  class Error < StandardError; end
 
-  class UserNotCreated < StandardError; end
+  class Unauthorized < Error; end
 
-  class Unauthorized < StandardError; end
+  class NotFound < Error; end
+
+  class UnprocessableEntity < Error; end
+
+  # Raised by customer endpoints. Kept for backwards compatibility.
+  class UserNotFound < NotFound; end
+
+  class UserNotCreated < UnprocessableEntity; end
 end

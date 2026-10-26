@@ -1,0 +1,38 @@
+[
+  {
+    "amount": 1,
+    "created_at": 1720186565,
+    "coupon": "string",
+    "currency": "string",
+    "discount": 1,
+    "gift_amount": 1,
+    "id": 198,
+    "localized_amount": 1,
+    "localized_currency": "string",
+    "localized_discount": 1,
+    "localized_gift_amount": 1,
+    "localized_original_price": 1,
+    "origin": "stripe",
+    "original_price": 1,
+    "paid_at": 1720186565,
+    "product_id": 443,
+    "product_type": "program",
+    "status": "paid",
+    "taxes": [
+      {
+        "amount": 1,
+        "country_code": "US",
+        "description": "string",
+        "display_name": "VAT",
+        "inclusive": false,
+        "jurisdiction": "California",
+        "percentage": 8.5,
+        "state": "CA",
+        "tax_type": "sales_tax"
+      }
+    ],
+    "trial": false,
+    "updated_at": 1720186565,
+    "user_id": 123
+  }
+]

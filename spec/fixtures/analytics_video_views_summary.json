@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "user_id": 123,
+      "video_id": 456,
+      "view_count": 5,
+      "total_watch_time": 1800
+    }
+  ],
+  "period": {
+    "from": "2023-01-01T00:00:00Z",
+    "to": "2023-01-31T23:59:59Z"
+  }
+}

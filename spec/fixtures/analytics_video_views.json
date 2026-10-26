@@ -1,0 +1,17 @@
+{
+  "content_title": "string",
+  "content_id": 143,
+  "content_type": "collection",
+  "video_id": 232,
+  "author_id": "121",
+  "author_name": "string",
+  "user_id": 123,
+  "user_name": "string",
+  "country_code": "string",
+  "duration": 1,
+  "browser": "string",
+  "os": "string",
+  "platform": "string",
+  "view_start": 1,
+  "view_end": 1
+}
