@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.2.0] - 2026-10-26
 - Require Ruby >= 3.2 (Ruby 3.0 and 3.1 are EOL); test against Ruby 3.2, 3.3, 3.4 and 4.0.
 - Add groups, contents, programs, videos, offers, invoices, email topics and analytics endpoints.
 - Add customers.access, customers.subscription, customers.create_subscription and customers.cancel_subscription.
