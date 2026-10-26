@@ -1,0 +1,13 @@
+{
+  "id": 2333,
+  "name": "string",
+  "billing_email": "string",
+  "plan_id": 74,
+  "plan_title": "string",
+  "number_of_seats": 15,
+  "used_seats": 3,
+  "status": "active",
+  "perform_action_at": 1,
+  "created_at": 1720186565,
+  "updated_at": 1720186565
+}

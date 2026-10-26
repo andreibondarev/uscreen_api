@@ -1,0 +1,9 @@
+[
+  {
+    "id": 123,
+    "email": "john.doe@example.com",
+    "name": "John Doe",
+    "role": "member",
+    "joined_on": 1720186565
+  }
+]

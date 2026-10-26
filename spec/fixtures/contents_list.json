@@ -1,0 +1,72 @@
+[
+  {
+    "author": {
+      "id": 10,
+      "title": "string",
+      "description": "string",
+      "image": "string",
+      "permalink": "string"
+    },
+    "blocked_countries": [
+      "PT"
+    ],
+    "categories": [
+      {
+        "id": 5,
+        "title": "string",
+        "public": false,
+        "permalink": "string",
+        "legacy_id": "my-external-id"
+      }
+    ],
+    "content_type": "collection",
+    "created_at": 1720186565,
+    "description": "string",
+    "downloadable": false,
+    "duration": 1,
+    "event_launch_date": null,
+    "event_state": "initial",
+    "featured_category_image_url": "string",
+    "free": false,
+    "id": 247,
+    "main_poster_url": "string",
+    "meta_description": "string",
+    "meta_title": "string",
+    "part_of_subscription": false,
+    "permalink": "string",
+    "preregistration_screen_text": "string",
+    "price_cents": 1500,
+    "published_at": 1720186565,
+    "release_at": null,
+    "release_stage": "published",
+    "rental_period": "1 day",
+    "rental_price_cents": 1000,
+    "secondary_poster_url": "string",
+    "short_description": "string",
+    "square_poster_url": "string",
+    "subscription_plans": [
+      {
+        "created_at": 1720186565,
+        "description": "string",
+        "id": 231,
+        "main_image_url": "string",
+        "price_cents": 1500,
+        "price_mode": "fixed",
+        "private": false,
+        "rental_period": "2 days",
+        "rental_price_cents": 300,
+        "rental_price_mode": "fixed",
+        "title": "string",
+        "type": "recurring",
+        "url": "string"
+      }
+    ],
+    "tags": [
+      "string"
+    ],
+    "title": "string",
+    "trailer_id": 1,
+    "video_count": 1,
+    "legacy_id": "my-external-id"
+  }
+]

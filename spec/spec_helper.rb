@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 require "uscreen_api"
+require "json"
+require "faraday"
+
+Dir[File.join(__dir__, "support", "**", "*.rb")].sort.each { |f| require f }
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -12,4 +16,8 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  config.include ApiHelpers
+
+  config.after { stubs.verify_stubbed_calls }
 end
